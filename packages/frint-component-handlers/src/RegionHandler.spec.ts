@@ -8,7 +8,7 @@ import { composeHandlers } from 'frint-component-utils';
 import RegionHandler from './RegionHandler';
 import RegionService from './RegionService';
 
-describe('frint-component-handlers › RegionHandler', function () {
+describe('frint-component-handlers › RegionHandler', () => {
   const RootApp = createApp({
     name: 'MyRootApp',
     providers: [

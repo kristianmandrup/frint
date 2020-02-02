@@ -2,9 +2,9 @@
 /* global describe, it */
 import { expect } from 'chai';
 
-import Types from '../src/Types';
-import createModel from '../src/createModel';
-import isModel from '../src/isModel';
+import Types from './Types';
+import createModel from './createModel';
+import isModel from './isModel';
 
 describe('frint-data › isModel', function () {
   it('returns true when object is a valid Model instance', function () {

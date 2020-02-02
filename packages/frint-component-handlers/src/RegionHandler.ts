@@ -21,7 +21,8 @@ export default {
   },
   beforeMount() {
     const rootApp = (!this.app)
-      ? window.app // @TODO: can we avoid globals?
+      // ts-lint-disable
+      ? window.app
       : this.app.getRootApp();
 
     if (!rootApp) {

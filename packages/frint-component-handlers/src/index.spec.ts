@@ -4,8 +4,8 @@ import { expect } from 'chai';
 
 import lib from './index';
 
-describe('frint-component-handlers › index', function () {
-  it('exports an object', function () {
+describe('frint-component-handlers › index', () => {
+  it('exports an object', () => {
     expect(lib).to.be.an('object');
   });
 });
